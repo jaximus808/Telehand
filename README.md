@@ -1,6 +1,9 @@
-# SHTRM: Server Hand Tracking Robotic Hand
+# Telehand
 
 Control a physical robotic hand over the internet with nothing but a webcam.
+
+Formerly **SHTRM** (Server Hand Tracking Robotic Hand); the original sub-repos
+linked below still use that naming.
 
 A user's hand is tracked with MediaPipe, the 21 landmarks are streamed over UDP
 to a Unity "fleet server" that reconstructs the hand in 3D and computes finger
@@ -10,7 +13,7 @@ accounts, robot registration, and matching users to the fleet server their robot
 is connected to.
 
 This was a high school science fair project built during the 2021–2022 school
-year and presented at the **Regeneron International Science and Engineering
+year and presented at the **2022 Regeneron International Science and Engineering
 Fair (ISEF)**. This repository is the monorepo archive of the four codebases
 that made up the system.
 
