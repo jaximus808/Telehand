@@ -1,0 +1,51 @@
+# ---- Secrets ----
+.env
+**/.env
+master-server/fleetServers.json
+
+# ---- macOS / editors ----
+.DS_Store
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+
+# ---- Unity (fleet-server) ----
+fleet-server/[Ll]ibrary/
+fleet-server/[Tt]emp/
+fleet-server/[Oo]bj/
+fleet-server/[Bb]uild/
+fleet-server/[Bb]uilds/
+fleet-server/[Ll]ogs/
+fleet-server/[Uu]ser[Ss]ettings/
+fleet-server/MemoryCaptures/
+fleet-server/*.sln
+fleet-server/*.csproj
+fleet-server/*.unityproj
+fleet-server/*.pidb
+fleet-server/*.booproj
+fleet-server/*.svd
+fleet-server/*.pdb
+fleet-server/*.mdb
+fleet-server/*.opendb
+fleet-server/*.VC.db
+fleet-server/crashlytics-build.properties
+
+# ---- Node (master-server) ----
+node_modules/
+npm-debug.log*
+
+# ---- Python (user-client) ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- Arduino (robotic-client) ----
+*.hex
+*.elf
+*.bin
+build/
